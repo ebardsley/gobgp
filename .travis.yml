@@ -4,7 +4,7 @@ _unittest: &_unittest
   go: "1.12"
   script:
     - go test $([ $(go env GOARCH) == 'amd64' ] && echo '-race') -timeout 240s ./...
-    - if [ "$(go env GOARCH)" = "amd64" ]; then go test -race github.com/osrg/gobgp/pkg/packet/bgp -run ^Test_RaceCondition$; else echo 'skip'; fi
+    - if [ "$(go env GOARCH)" = "amd64" ]; then go test -race github.com/ebardsley/gobgp/pkg/packet/bgp -run ^Test_RaceCondition$; else echo 'skip'; fi
 
 _build: &_build
   go: "1.12"

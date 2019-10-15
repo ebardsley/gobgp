@@ -27,7 +27,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 )
 
 const (

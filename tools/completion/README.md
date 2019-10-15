@@ -16,7 +16,7 @@ The described how to use and how to customize of bash completion.
 
 1. add gobgp's path to PATH environment variable
 
-    If you run 'go get github.com/osrg/gobgp/gobgp', gobgp command is installed
+    If you run 'go get github.com/ebardsley/gobgp/gobgp', gobgp command is installed
     in $GOPATH/bin.
 
     ```bash
@@ -26,7 +26,7 @@ The described how to use and how to customize of bash completion.
 1. load completion file
 
     ```bash
-    % source $GOPATH/src/github.com/osrg/gobgp/tools/completion/gobgp-completion.bash
+    % source $GOPATH/src/github.com/ebardsley/gobgp/tools/completion/gobgp-completion.bash
     ```
 
 You can use tab completion for gobgp after loading gobgp-completion.bash.
@@ -232,7 +232,7 @@ directory to $fpath and enabling zsh completion like below:
 ```bash
 % vi ~/.zshrc
 
-GOBGP_COMP=$GOPATH/src/github.com/osrg/gobgp/tools/completion/zsh
+GOBGP_COMP=$GOPATH/src/github.com/ebardsley/gobgp/tools/completion/zsh
 fpath=($GOBGP_COMP $fpath)
 
 autoload -Uz compinit

@@ -16,7 +16,7 @@
 package table
 
 import (
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 )
 
 type Vrf struct {

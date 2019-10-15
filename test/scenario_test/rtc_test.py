@@ -71,7 +71,7 @@ class GoBGPTestBase(unittest.TestCase):
         cls.g2 = g2
 
     # Test the problem which was reported on #1682
-    # https://github.com/osrg/gobgp/issues/1682
+    # https://github.com/ebardsley/gobgp/issues/1682
     def test_01_neighbor_estabslihed_with_conflict_rtc_config(self):
         self.g1.add_peer(self.g2, vpn=True, passwd='rtc', graceful_restart=True)
         self.g2.add_peer(self.g1, vpn=False, passwd='rtc', graceful_restart=True)
@@ -218,7 +218,7 @@ class GoBGPTestBase(unittest.TestCase):
 
         # Check the counts of the sent UPDATE messages in order to detect the
         # infinite RTC UPDATE loop.
-        # https://github.com/osrg/gobgp/issues/1630
+        # https://github.com/ebardsley/gobgp/issues/1630
         self.assert_upd_count(self.g4, self.g3, sent=1, received=2)
         self.assert_upd_count(self.g5, self.g3, sent=1, received=2)
 
@@ -824,8 +824,8 @@ class GoBGPTestBase(unittest.TestCase):
 
     def test_50_rr_addpath_setup(self):
         # Test cases for the infinite RTC UPDATE message loop:
-        # https://github.com/osrg/gobgp/issues/1688#issuecomment-391456615
-        # https://github.com/osrg/gobgp/pull/1703
+        # https://github.com/ebardsley/gobgp/issues/1688#issuecomment-391456615
+        # https://github.com/ebardsley/gobgp/pull/1703
 
         #               +------+
         #               |  g3  |
@@ -936,7 +936,7 @@ class GoBGPTestBase(unittest.TestCase):
 
     def test_54_rr_addpath_del_route_on_vrf(self):
         # Related issue:
-        # https://github.com/osrg/gobgp/issues/1688
+        # https://github.com/ebardsley/gobgp/issues/1688
 
         # VRF<#>  g3   g4   g5
         #   1          ( )  (*)

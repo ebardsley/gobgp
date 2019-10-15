@@ -82,7 +82,7 @@ Please note this option is mainly for debugging purpose.
 Let's check if BMP works with a bmp server. GoBGP also supports BMP server (currently, just shows received BMP messages in the json format).
 
 ```bash
-$ go get github.com/osrg/gobgp/gobmpd
+$ go get github.com/ebardsley/gobgp/gobmpd
 $ gobmpd
 ...(snip)...
 ```

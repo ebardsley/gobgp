@@ -23,8 +23,8 @@ import (
 	"net"
 	"sort"
 
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/internal/pkg/config"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 )

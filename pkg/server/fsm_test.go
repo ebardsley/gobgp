@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/eapache/channels"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/internal/pkg/config"
+	"github.com/ebardsley/gobgp/internal/pkg/table"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

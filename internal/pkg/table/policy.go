@@ -28,9 +28,9 @@ import (
 	"sync"
 
 	radix "github.com/armon/go-radix"
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	api "github.com/ebardsley/gobgp/api"
+	"github.com/ebardsley/gobgp/internal/pkg/config"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 	log "github.com/sirupsen/logrus"
 )
 

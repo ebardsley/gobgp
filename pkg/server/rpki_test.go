@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/internal/pkg/config"
+	"github.com/ebardsley/gobgp/internal/pkg/table"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 
 	radix "github.com/armon/go-radix"
 	"github.com/stretchr/testify/assert"

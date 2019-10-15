@@ -23,7 +23,7 @@ import (
 	"unsafe"
 
 	"github.com/armon/go-radix"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 	log "github.com/sirupsen/logrus"
 )
 

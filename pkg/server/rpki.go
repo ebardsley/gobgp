@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
-	"github.com/osrg/gobgp/pkg/packet/rtr"
+	"github.com/ebardsley/gobgp/internal/pkg/config"
+	"github.com/ebardsley/gobgp/internal/pkg/table"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/pkg/packet/rtr"
 
 	"github.com/armon/go-radix"
 	log "github.com/sirupsen/logrus"

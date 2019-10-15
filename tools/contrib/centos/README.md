@@ -6,7 +6,7 @@ Download `gobgp` binaries, unpack them, and put them `/usr/bin/`:
 
 ```bash
 mkdir -p /tmp/gobgp
-cd /tmp/gobgp && curl -s -L -O https://github.com/osrg/gobgp/releases/download/v1.31/gobgp_1.31_linux_amd64.tar.gz
+cd /tmp/gobgp && curl -s -L -O https://github.com/ebardsley/gobgp/releases/download/v1.31/gobgp_1.31_linux_amd64.tar.gz
 tar xvzf gobgp_1.31_linux_amd64.tar.gz
 mv gobgp /usr/bin/
 mv gobgpd /usr/bin/

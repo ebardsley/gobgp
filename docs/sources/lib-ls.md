@@ -16,8 +16,8 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/jsonpb"
-	api "github.com/osrg/gobgp/api"
-	gobgp "github.com/osrg/gobgp/pkg/server"
+	api "github.com/ebardsley/gobgp/api"
+	gobgp "github.com/ebardsley/gobgp/pkg/server"
 	log "github.com/sirupsen/logrus"
 )
 

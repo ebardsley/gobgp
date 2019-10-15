@@ -109,7 +109,7 @@ class GoBGPTestBase(unittest.TestCase):
                 self.assertFalse(p.get('stale', False))
 
         # Confirm the stale paths are also removed from the adj-RIB-in table.
-        # https://github.com/osrg/gobgp/pull/1707
+        # https://github.com/ebardsley/gobgp/pull/1707
         self.assertEqual(len(g2.get_adj_rib_in(g1, '10.10.20.0/24')), 1)
         self.assertEqual(len(g2.get_adj_rib_in(g1, '10.10.10.0/24')), 0)
         for p in g2.get_adj_rib_in(g1):

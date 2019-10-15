@@ -23,7 +23,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 )
 
 func mapkey(index int, name string) string {

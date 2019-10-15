@@ -25,7 +25,7 @@ $ python -m grpc_tools.protoc -I./api -I"$(GO111MODULE=on go list -f '{{ .Dir }}
 
 ### Adding Path
 
-[`tools/grpc/python/add_path.py`](https://github.com/osrg/gobgp/blob/master/tools/grpc/python/add_path.py)
+[`tools/grpc/python/add_path.py`](https://github.com/ebardsley/gobgp/blob/master/tools/grpc/python/add_path.py)
 shows an example for adding a route.
 Let's run this script.
 
@@ -45,14 +45,14 @@ $ gobgp g r
 
 ### Generating Interface and Binary
 
-Use [`tools/grpc/cpp/Makefile`](https://github.com/osrg/gobgp/blob/master/tools/grpc/cpp/Makefile).
+Use [`tools/grpc/cpp/Makefile`](https://github.com/ebardsley/gobgp/blob/master/tools/grpc/cpp/Makefile).
 
 ```bash
 $ cd tools/grpc/cpp
 $ make
  ```
 
-The above to generate the server and client interface and the binary to add a route by using `AddPath` API, ['tools/grpc/cpp/add_path.cc'](https://github.com/osrg/gobgp/blob/master/tools/grpc/cpp/add_path.cc).
+The above to generate the server and client interface and the binary to add a route by using `AddPath` API, ['tools/grpc/cpp/add_path.cc'](https://github.com/ebardsley/gobgp/blob/master/tools/grpc/cpp/add_path.cc).
 
 ### Adding Path
 

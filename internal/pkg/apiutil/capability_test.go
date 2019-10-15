@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/ptypes"
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	api "github.com/ebardsley/gobgp/api"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 	"github.com/stretchr/testify/assert"
 )
 

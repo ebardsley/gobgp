@@ -11,7 +11,7 @@ modern environment and implemented in a modern programming language,
 
 ## Install
 
-Try [a binary release](https://github.com/osrg/gobgp/releases/latest).
+Try [a binary release](https://github.com/ebardsley/gobgp/releases/latest).
 
 ## Documentation
 
@@ -61,5 +61,5 @@ code contributing.
 ## Licensing
 
 GoBGP is licensed under the Apache License, Version 2.0. See
-[LICENSE](https://github.com/osrg/gobgp/blob/master/LICENSE) for the full
+[LICENSE](https://github.com/ebardsley/gobgp/blob/master/LICENSE) for the full
 license text.

@@ -21,8 +21,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	api "github.com/ebardsley/gobgp/api"
+	"github.com/ebardsley/gobgp/pkg/packet/bgp"
 	"github.com/stretchr/testify/assert"
 )
 

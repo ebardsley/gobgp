@@ -102,7 +102,7 @@ $ sudo fab2 -r ./test/lib make-gobgp-ctn
     If all tests passed, you can see "all tests passed successfully" at the end of the test.
 
     ```shell
-    $ cd $GOPATH/src/github.com/osrg/gobgp/test/scenario_test
+    $ cd $GOPATH/src/github.com/ebardsley/gobgp/test/scenario_test
     $ ./run_all_tests.sh
     ...
     OK
@@ -115,7 +115,7 @@ $ sudo fab2 -r ./test/lib make-gobgp-ctn
     See `test/scenario_test/*.py`, for the individual test files.
 
     ```shell
-    $ cd $GOPATH/src/github.com/osrg/gobgp/test/scenario_test
+    $ cd $GOPATH/src/github.com/ebardsley/gobgp/test/scenario_test
     $ sudo -E PYTHONPATH=$GOBGP/test python3 <scenario test name>.py
     ...
     OK
